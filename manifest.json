@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "Binge Backup",
+    "version": "1.0",
+    "description": "Extracts all the Movie Titles from the My List page of Netflix.",
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon.png",
+            "48": "icon.png",
+            "128": "icon.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Binge Backup</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            background-color: #121212;
+            color: #f1f1f1;
+            width: 500px;
+            min-height: 300px;
+            border-radius: 8px;
+            overflow-y: auto;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h3 {
+            margin-top: 0;
+            font-size: 24px;
+            color: #e50914;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        li {
+            background-color: #1f1f1f;
+            margin-bottom: 10px;
+            padding: 12px 16px;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+        }
+
+        li:hover {
+            background-color: #333;
+        }
+
+        #downloadBtn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #e50914;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #downloadBtn:hover {
+            background-color: #b2060e;
+        }
+
+        .disclaimer {
+            font-size: 11px;
+            color: #777;
+            margin-top: 20px;
+            text-align: center;
+            padding: 0 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Binge Backup List</h3>
+        <ul id="textList"></ul>
+        <button id="downloadBtn">Download as .txt</button>
+        <p class="disclaimer">
+            Binge Backup is an independent tool and is not affiliated with, endorsed by, or associated with Netflix in
+            any way.
+        </p>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
