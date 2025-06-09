@@ -1,6 +1,6 @@
-![Binge Backup Screenshot](logo.png)
-
 # Binge Backup 🎬
+
+![Binge Backup Logo](icon.png)
 
 **Binge Backup** is a lightweight Chrome Extension that lets you export your *My List* movies and shows from Netflix (or similar layouts) into a downloadable `.txt` file — one title per line.
 
