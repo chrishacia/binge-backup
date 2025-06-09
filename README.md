@@ -57,4 +57,5 @@ MIT — feel free to fork and enhance. Pull requests welcome.
 
 ---
 
-Made with ❤️ by [Your Name Here]
+Made with ❤️ by Chris
+https://chrishacia.com
